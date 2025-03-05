@@ -43,7 +43,7 @@ const Navbar = () => {
 };
 
 const Home = () => <div className="p-5 text-center text-xl">Welcome to Home Page</div>;
-const Profile = withAuth(() => <div className="p-5 text-center text-xl">This is your Profile</div>);
+const Profile = withAuth(() => <div className="p-5 text-center text-xl">Profile</div>);
 const Setting = () => <div className="p-5 text-center text-xl">Settings Page</div>;
 
 // App Component
